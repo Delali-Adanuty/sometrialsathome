@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'dm Sans';
+}
+
+.container{
+    margin:3vh 5vw;
+}
+
+.wrapper{
+    width: 25vw;
+    min-height: 50vh;
+    margin:12vh 33vw;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.3);
+    padding-bottom: 2vh;
+}
+
+section .img-container{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 35vh;
+    max-height: 35vh;
+    background-image: url(images/sixmau-j-cole-1524081746-650x366.png); 
+    background-size: cover;
+    background-position: center;
+    padding:2vh 1vw;
+}
+
+section .default-bar{
+    width:23.5vw;
+    height: 0.3vh;
+    background-color:rgb(180, 180, 180);
+    margin:1vh 0.56vw;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+
+section .progress-bar{
+    width:0vw;
+    height: 0.3vh;
+    background-color: black;
+    margin:1vh 0vw;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+
+section .progress-bar .ball{
+    width:0.5rem;
+    height:0.5rem;
+    background-color: white;
+    border:1px solid orangered;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -0.2vw;
+}
+
+.buttons{
+    margin:0vh 10.3vw;
+}
+
+.buttons button, .volume-buttons button{
+    border:none;
+    outline:none;
+    color:white;
+    background-color: orangered;
+    height: 3rem;
+    width:3rem;
+    border-radius: 50%;
+}
+
+.buttons button.pause-button{
+    display: none;
+}
+
+.time ul{
+    display: flex;
+    margin:0vh 0.7vw;
+}
+
+.time ul li{
+    list-style-type: none;
+    font-size:0.9rem;
+}
+
+.time ul li.current-time{
+    width:20.6vw;
+}
+
+.volume-buttons button{
+    border-radius: 0%;
+    margin:0vh 1vw;
+    color:black;
+    background-color: white;
+}
+
+.volume-buttons button.volume-mute{
+    display: none;
+} 
